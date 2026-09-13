@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Environment variables (never commit real secrets/config) ---
+.env
+backend/.env
+frontend/.env
+
+# --- Logs ---
+*.log
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS/editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Note on data/ and vector_store/ ---
+# NOT excluded here on purpose: the 12 source PDFs (data/raw/, ~72KB total)
+# and the ChromaDB vector store (~600KB for 68 chunks) are both well under
+# the 50MB threshold, so they are committed directly. This keeps the repo
+# runnable immediately after `git clone` without requiring anyone to
+# re-run the notebook just to get the backend working.

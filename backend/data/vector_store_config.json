@@ -1,0 +1,14 @@
+{
+  "embedding_model": "all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "normalize_embeddings": true,
+  "chunking_strategy": "section-based (numbered headings + Q&A headings)",
+  "num_source_documents": 12,
+  "num_chunks": 68,
+  "chroma_collection_name": "cloudtask_kb",
+  "chroma_path": "../data/vector_store",
+  "llm_model": "llama3.2",
+  "llm_provider": "ollama",
+  "top_k_default": 3,
+  "generated_at": "2026-09-13T16:24:18.344814+00:00"
+}
