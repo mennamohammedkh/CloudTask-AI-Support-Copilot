@@ -4,6 +4,13 @@
 
 # 🤖 CloudTask AI Support Copilot
 
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![FastAPI](https://img.shields.io/badge/backend-FastAPI-009688.svg)
+![Streamlit](https://img.shields.io/badge/frontend-Streamlit-FF4B4B.svg)
+![ChromaDB](https://img.shields.io/badge/vector%20store-ChromaDB-purple.svg)
+![Ollama](https://img.shields.io/badge/LLM-Ollama%20%7C%20llama3.2-000000.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 A local, Retrieval-Augmented Generation (RAG) powered AI support assistant that
 answers customer questions for **CloudTask** — a fictional project-management
 SaaS product — using its official PDF documentation. Answers are always
@@ -310,4 +317,3 @@ cases (empty question, `top_k` out of range, missing field) — all mocked so
 they run without a live Ollama server or internet connection.
 
 ---
-
